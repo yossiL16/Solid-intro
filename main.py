@@ -2,7 +2,8 @@
 # from s.SavingFile import SavingFile
 # from s.gradeCalculator import GradeCalculator
 # from s.student import Student
-from s.order import Order, Print
+# from s.order import Order, Print
+from o.o1 import Shape, Circle,Square
 
 # s1
 # book = Book("hari potter", "j k roling", "oufwhlkeuhlku")
@@ -13,7 +14,14 @@ from s.order import Order, Print
     # student = Student("yossi", [100, 98, 92, 93, 89, 70, 88])
     # GradeCalculator.average_grade(student)
 
-# s3
-order = Order(["banana", "apple", "melon"], 43.6)
-Print.print_invoice(order.items, order.total_price)
+# # s3
+# order = Order(["banana", "apple", "melon"], 43.6)
+# Print.print_invoice(order.items, order.total_price)
+
+# o1
+# circul = Circle(20)
+# circul.area()
+#
+# square = Square(15)
+# square.area()
 
