@@ -6,3 +6,4 @@ class SavingFile:
     def save_to_file(filename, book:Book):
         with open(filename, "w") as f:
             f.write(book.content)
+        
